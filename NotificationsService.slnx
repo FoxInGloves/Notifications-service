@@ -3,5 +3,7 @@
   <Project Path="NotificationsService.Application/NotificationsService.Application.csproj" />
   <Project Path="NotificationsService.Contracts/NotificationsService.Contracts.csproj" />
   <Project Path="NotificationsService.Domain/NotificationsService.Domain.csproj" />
+  <Project Path="NotificationsService.EmailWorker/NotificationsService.EmailWorker.csproj" />
   <Project Path="NotificationsService.Infrastructure/NotificationsService.Infrastructure.csproj" />
+  <Project Path="Worker/Worker.csproj" />
 </Solution>
