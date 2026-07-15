@@ -2,6 +2,6 @@
 
 public sealed record CreateNotificationCommand(
     string Recipient,
-    NotificationChannel Channel,
+    NotificationChannelEnum Channel,
     string Title,
     string Message);

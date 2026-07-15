@@ -1,6 +1,6 @@
 ﻿namespace NotificationsService.Contracts;
 
-public enum NotificationChannel
+public enum NotificationChannelEnum
 {
     Email,
     Sms

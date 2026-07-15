@@ -21,7 +21,7 @@ public class NotificationService
         
         //await _notificationsRepository.AddNotificationAsync(notification);
 
-        await _messagePublisher.PublishAsync(new NotificationCreated(notification.Id));
+        await _messagePublisher.PublishAsync(new NotificationCreated(notification.Id, command.Channel));
         
         return notification.Id;
     }

@@ -2,10 +2,13 @@
 
 public class NotificationCreated
 {
-    public Guid Id { get; private set; }
+    public Guid Id { get; }
     
-    public NotificationCreated(Guid id)
+    public NotificationChannelEnum Channel { get; }
+    
+    public NotificationCreated(Guid id, NotificationChannelEnum channel)
     {
         Id = id;
+        Channel = channel;
     }
 }
